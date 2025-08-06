@@ -1,0 +1,50 @@
+.layout {
+    display: flex;
+    flex-direction: column; /* makes it stackable vertically */
+    align-items: center;
+    gap: 30px;
+}
+
+#header {
+    
+    margin-top: 20px;
+    margin-bottom: 1px;
+}
+
+#instaHandle, #dmMessage{
+
+    font-family: sans-serif;
+    padding: 2px;
+    font-size: 14px
+
+}
+
+#instaHandle {
+
+    width: 200px;
+
+}
+
+#dmMessage {
+    
+    display: block;
+    width: 250px;
+    height: 100px;    
+}
+
+#generateButton {
+
+    background-color: greenyellow;
+    color: black;
+    font-size: 16px;
+
+}
+
+#generateButton:hover {
+
+    background-color: lime;
+    color: white;
+    transform: scale(1.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    
+}
