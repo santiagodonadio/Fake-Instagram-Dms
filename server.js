@@ -60,6 +60,7 @@ app.get("/check-username/:username", async (req,res) => {
 
 })
 
+// express turn that server on and listen to incoming calls 
 app.listen(4000, () => {
     console.log("Server is running on http://localhost:4000");
 })
