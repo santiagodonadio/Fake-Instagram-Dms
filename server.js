@@ -2,8 +2,8 @@
 
 const express = require("express"); //imports the express framework to create APIs or servers/routes
 
-const fetch = require("node-fetch"); // enables HTTPs requests (like calling APIs)
-//hypertext transfer protocol
+//const fetch = require("node-fetch"); // enables HTTPs requests (like calling APIs)
+//hypertext transfer protocol | not needed anymore now, available by default
 
 const cors = require("cors"); // enables frontend to talk to backend
 // cross origin resource sharing
@@ -46,8 +46,9 @@ app.get("/check-username/:username", async (req,res) => {
         
 
     } catch (err) {
-
+        console.error("Error fetching profile:", err.message);
         res.status(500).json({error: "Failed to fetch Instagram profile :("});
+        
 
     }
 
