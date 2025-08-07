@@ -18,6 +18,9 @@ The next part will define GET route
 
 */
 
+console.log("Starting server...");
+
+
 app.get("/check-username/:username", async (req,res) => {
     
     const { username } = req.params;
@@ -48,11 +51,14 @@ app.get("/check-username/:username", async (req,res) => {
 
     }
 
-    // this portion starts my server and listens to incoming requests
     app.listen(4000, () => {
         console.log("Server is running on http://localhost:4000");
     })
 
 
 
+})
+
+app.listen(4000, () => {
+    console.log("Server is running on http://localhost:4000");
 })
