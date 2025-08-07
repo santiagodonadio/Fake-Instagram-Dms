@@ -1,0 +1,25 @@
+{
+  "name": "fake-instagram-dms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiagodonadio/Fake-Instagram-Dms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santiagodonadio/Fake-Instagram-Dms/issues"
+  },
+  "homepage": "https://github.com/santiagodonadio/Fake-Instagram-Dms#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
